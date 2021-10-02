@@ -29,3 +29,6 @@ The t-test results across all lots could be seen below.
 <img src="t.test_lot3.png"/>
 
 After carefully looking at all the results and the p-values for each, we could conclude that for lots 1 and 2 we fail to reject the null hypothesis. However, for lot 3, at a significance level of 0.05, we could reject the null hypothesis since the p-value is 0.04. 
+
+## Study Design: MechaCar vs Competition
+An additional statistical study that can could be performed to quantify how the MechaCar performs against the competition is fuel efficiency. With gas prices being expensive, city or highway fuel efficiency would be of interest to a consumer. In order to do this study, the metrics and data needed are: horsepower, vehicle weight, mpg, and fuel efficiency. A linear regression could be performed in order to determine MechaCar fuel efficiency versus the competition. 
