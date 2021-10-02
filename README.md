@@ -13,3 +13,8 @@
 
   Being that the R-squared value is 71% and the adjusted is 68% we could conclude that this linear model predicts the mpg of the MechaCar prototypes effectively.
  
+## Summary Statistics on Suspension Coils
+<img src="total_summary.png"/>
+<img src="lot_summary.png"/>
+
+The overall variance does not exceed 100 pounds and therefore meets the design specification. However, individually not all the lots meet the specification. The third lot has a much higher variance which exceeds the 100 pound limit. 
