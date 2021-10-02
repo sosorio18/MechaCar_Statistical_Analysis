@@ -18,3 +18,14 @@
 <img src="lot_summary.png"/>
 
 The overall variance does not exceed 100 pounds and therefore meets the design specification. However, individually not all the lots meet the specification. The third lot has a much higher variance which exceeds the 100 pound limit. 
+
+## T-Tests on Suspension Coils
+The t-test on the entire lot has a p-value of 0.06, as seen in the image below. Therefore, we can’t reject the hypothesis. 
+<img src="ttest_lots.png"/>
+
+The t-test results across all lots could be seen below. 
+<img src="t.test_lot1.png"/>
+<img src="t.test_lot2.png"/>
+<img src="t.test_lot3.png"/>
+
+After carefully looking at all the results and the p-values for each, we could conclude that for lots 1 and 2 we fail to reject the null hypothesis. However, for lot 3, at a significance level of 0.05, we could reject the null hypothesis since the p-value is 0.04. 
